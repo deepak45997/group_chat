@@ -6,6 +6,8 @@ import '../../presentation/screens/sign_up_page/sign_up_page.dart';
 
 class AppPages{
   static final pages= [
+
+
   GetPage(name: AppRoutes.logInPage, page: () => LogInPage()),
   GetPage(name: AppRoutes.signUpPage, page: () => SignUpPage()),
   GetPage(name: AppRoutes.myHomePage, page: () =>  MyHomePage()),

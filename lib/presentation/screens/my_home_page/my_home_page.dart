@@ -16,7 +16,7 @@ class MyHomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return GetX<MyHomeController>(
-      builder: (_ctrl)
+      builder: (ctrl)
       {
         return Scaffold(
           body: Text(AppStrings.userList,
